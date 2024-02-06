@@ -1,9 +1,55 @@
-<mxfile host="app.diagrams.net" modified="2024-02-06T07:00:37.814Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" version="23.1.1" etag="2ulKulVg-bZ2WpxqX7Yd" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-06T07:11:25.391Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="y0QD94-_Es2944yX3azC" version="23.1.1" type="github">
   <diagram name="Page-1" id="cfbWIoydHcCieyKhCQGp">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="W70VGPViUVeZJ4X2rpyh-1" value="Perpus Digital" style="swimlane;startSize=30;" vertex="1" parent="1">
+          <mxGeometry x="300" y="170" width="270" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="W70VGPViUVeZJ4X2rpyh-2" value="From Pengunjung" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="W70VGPViUVeZJ4X2rpyh-1">
+          <mxGeometry x="55" y="70" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="W70VGPViUVeZJ4X2rpyh-3" value="Pencarian Buku" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="W70VGPViUVeZJ4X2rpyh-1">
+          <mxGeometry x="55" y="150" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="W70VGPViUVeZJ4X2rpyh-4" value="Detail Buku" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="W70VGPViUVeZJ4X2rpyh-1">
+          <mxGeometry x="55" y="230" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="W70VGPViUVeZJ4X2rpyh-5" value="Laporan Statistik" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="W70VGPViUVeZJ4X2rpyh-1">
+          <mxGeometry x="55" y="310" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="W70VGPViUVeZJ4X2rpyh-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="W70VGPViUVeZJ4X2rpyh-7" target="W70VGPViUVeZJ4X2rpyh-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W70VGPViUVeZJ4X2rpyh-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="W70VGPViUVeZJ4X2rpyh-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="670" y="353" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W70VGPViUVeZJ4X2rpyh-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="W70VGPViUVeZJ4X2rpyh-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="670" y="353" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W70VGPViUVeZJ4X2rpyh-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="W70VGPViUVeZJ4X2rpyh-7" target="W70VGPViUVeZJ4X2rpyh-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W70VGPViUVeZJ4X2rpyh-7" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="670" y="310" width="90" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="W70VGPViUVeZJ4X2rpyh-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="W70VGPViUVeZJ4X2rpyh-8" target="W70VGPViUVeZJ4X2rpyh-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W70VGPViUVeZJ4X2rpyh-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="W70VGPViUVeZJ4X2rpyh-8" target="W70VGPViUVeZJ4X2rpyh-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W70VGPViUVeZJ4X2rpyh-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="W70VGPViUVeZJ4X2rpyh-8" target="W70VGPViUVeZJ4X2rpyh-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W70VGPViUVeZJ4X2rpyh-8" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="310" width="90" height="130" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
